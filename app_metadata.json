@@ -1,0 +1,144 @@
+{
+  "appgroup_id": "6a7e0b3b9888716c47b3b79b",
+  "appgroup_name": "Dokumentenprüfung",
+  "apps": {
+    "dokumentenpruefung": {
+      "app_id": "6a7e0b2e1c45ea49b73c3809",
+      "name": "Dokumentenprüfung",
+      "main": false,
+      "controls": {
+        "titel": {
+          "identifier": "titel",
+          "label": "Dokumententitel",
+          "type": "string",
+          "subtype": "text",
+          "fulltype": "string/text",
+          "description": "A string value not longer than 4000 characters (or `null`/`None`).",
+          "required": true,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": true,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true
+        },
+        "beschreibung": {
+          "identifier": "beschreibung",
+          "label": "Beschreibung",
+          "type": "string",
+          "subtype": "textarea",
+          "fulltype": "string/textarea",
+          "description": "A string value that can contain multiple lines of text (or `null`/`None`).",
+          "required": false,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": false,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true
+        },
+        "dokument": {
+          "identifier": "dokument",
+          "label": "Dokument",
+          "type": "file",
+          "subtype": null,
+          "fulltype": "file",
+          "description": "An uploaded file (or `null`/`None`).\n\nThe field value will be the URL to download the file in the form `https://my.living-apps.de/files/6a7e0b2e1c45ea49b73c3809/data/<record-id>/<control-identifier>/<internal-id>` (or `null`/`None`).",
+          "required": true,
+          "in_list": true,
+          "in_mobile_list": false,
+          "in_text": true,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true
+        },
+        "hochladedatum": {
+          "identifier": "hochladedatum",
+          "label": "Hochladedatum",
+          "type": "date",
+          "subtype": "date",
+          "fulltype": "date/date",
+          "description": "A calendar date consisting of year, month and day (or `null`/`None`)\n\nThe field value will be a string in the format `<YYYY>-<MM>-<DD>` (or `null`/`None`).\n\nFor example: `2000-02-29`.\n\nFor `POST`/`PUT`/`PATCH` requests the REST API uses a liberal parsing approach so that strings like `2026`, `February 29, 2000 12:34 MEST`, `letztes Jahr` etc. will be accepted as value date values. However this runs the risk of parsing ambiguous values incorrectly. To ensure reliable parsing it is best to use the canonical format specified above.",
+          "required": true,
+          "in_list": true,
+          "in_mobile_list": false,
+          "in_text": false,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true
+        },
+        "pruefstatus": {
+          "identifier": "pruefstatus",
+          "label": "Prüfstatus",
+          "type": "lookup",
+          "subtype": "radio",
+          "fulltype": "lookup/radio",
+          "description": "One selected option of multiple available options (or `null`/`None`).\n\nThe available options are defined in the `lookup_data` attribute of this control.\n\nThe field value will be the key in this `lookup_data` attribute (or `null`/`None`).\n\nDisplayed as radio button fields in HTML pages.",
+          "required": true,
+          "in_list": true,
+          "in_mobile_list": false,
+          "in_text": false,
+          "in_structured_search": null,
+          "in_fulltext_search": true,
+          "in_expert_search": true,
+          "lookup_data": {
+            "bestanden": "Bestanden",
+            "nicht_bestanden": "Nicht bestanden",
+            "ausstehend": "Ausstehend",
+            "nachbesserung_erforderlich": "Nachbesserung erforderlich"
+          }
+        },
+        "pruefkommentar": {
+          "identifier": "pruefkommentar",
+          "label": "Prüfkommentar",
+          "type": "string",
+          "subtype": "textarea",
+          "fulltype": "string/textarea",
+          "description": "A string value that can contain multiple lines of text (or `null`/`None`).",
+          "required": false,
+          "in_list": false,
+          "in_mobile_list": false,
+          "in_text": false,
+          "in_structured_search": null,
+          "in_fulltext_search": null,
+          "in_expert_search": true
+        },
+        "prueferdatum": {
+          "identifier": "prueferdatum",
+          "label": "Prüfdatum",
+          "type": "date",
+          "subtype": "date",
+          "fulltype": "date/date",
+          "description": "A calendar date consisting of year, month and day (or `null`/`None`)\n\nThe field value will be a string in the format `<YYYY>-<MM>-<DD>` (or `null`/`None`).\n\nFor example: `2000-02-29`.\n\nFor `POST`/`PUT`/`PATCH` requests the REST API uses a liberal parsing approach so that strings like `2026`, `February 29, 2000 12:34 MEST`, `letztes Jahr` etc. will be accepted as value date values. However this runs the risk of parsing ambiguous values incorrectly. To ensure reliable parsing it is best to use the canonical format specified above.",
+          "required": false,
+          "in_list": false,
+          "in_mobile_list": false,
+          "in_text": false,
+          "in_structured_search": null,
+          "in_fulltext_search": null,
+          "in_expert_search": true
+        },
+        "pruefer": {
+          "identifier": "pruefer",
+          "label": "Prüfer",
+          "type": "string",
+          "subtype": "text",
+          "fulltype": "string/text",
+          "description": "A string value not longer than 4000 characters (or `null`/`None`).",
+          "required": false,
+          "in_list": false,
+          "in_mobile_list": false,
+          "in_text": false,
+          "in_structured_search": null,
+          "in_fulltext_search": null,
+          "in_expert_search": true
+        }
+      }
+    }
+  },
+  "metadata": {
+    "apps_list": [
+      "Dokumentenprüfung"
+    ]
+  }
+}

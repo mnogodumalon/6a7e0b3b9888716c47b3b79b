@@ -1,0 +1,10 @@
+{
+  "entities": {
+    "Dokumentenprüfung": {
+      "placeholders_set": 7,
+      "defaults_keys": ["hochladedatum", "pruefstatus"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten- und Verwaltungsentität ohne berechenbare Felder. Keine applookup-Ketten, keine number-Felder, keine Datumsdifferenzen mit geschäftlicher Relevanz. Hochladedatum als Default heute (Upload-Semantik), Prüfstatus auf 'ausstehend' (logischer Startzustand)."
+    }
+  }
+}

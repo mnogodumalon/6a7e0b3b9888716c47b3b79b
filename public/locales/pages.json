@@ -1,0 +1,42 @@
+{
+  "pages": {
+    "en": {
+      "Alle Dokumente sind geprüft — super!": "All documents have been reviewed — great!",
+      "Alle Dokumente sind geprüft.": "All documents have been reviewed.",
+      "Als bestanden markieren": "Mark as passed",
+      "Als geprüft markieren": "Mark as reviewed",
+      "Analyse läuft…": "Analysis in progress…",
+      "Ausstehend": "Pending",
+      "Ausstehende Prüfungen": "Pending reviews",
+      "Bestanden": "Passed",
+      "Bestätigen": "Confirm",
+      "Dieses Dokument und alle zugehörigen Prüfdaten werden unwiderruflich gelöscht.": "This document and all associated review data will be permanently deleted.",
+      "Dokument hochladen": "Upload document",
+      "Dokument löschen": "Delete document",
+      "Dokument vorhanden": "Document available",
+      "Du bist ein Dokumentenprüfer. Analysiere das Dokument und bewerte es nach folgenden Kriterien:\n1. Vollständigkeit: Sind alle wichtigen Informationen vorhanden?\n2. Korrektheit: Gibt es inhaltliche Fehler oder Unstimmigkeiten?\n3. Formale Anforderungen: Entspricht das Dokument den formalen Standards?\n\nGib eine strukturierte Prüfbewertung zurück mit:\n- Gesamtbewertung: BESTANDEN oder NICHT BESTANDEN oder NACHBESSERUNG ERFORDERLICH\n- Kommentar: Kurze Begründung (2-3 Sätze)": "You are a document reviewer. Analyze the document and evaluate it according to the following criteria:\n1. Completeness: Are all important pieces of information present?\n2. Correctness: Are there any factual errors or inconsistencies?\n3. Formal requirements: Does the document meet formal standards?\n\nReturn a structured review assessment with:\n- Overall rating: PASSED or FAILED or REVISION REQUIRED\n- Comment: Brief justification (2–3 sentences)",
+      "Erstes Dokument hochladen": "Upload first document",
+      "KI prüfen": "Run AI review",
+      "KI-Analyse verfügbar": "AI analysis available",
+      "KI-Prüfung abgeschlossen — {0}": "AI review completed — {0}",
+      "KI-Prüfung fehlgeschlagen": "AI review failed",
+      "Kein Datum": "No date",
+      "Keine Dokumente mit KI-Analyse bereit.": "No documents ready for AI analysis.",
+      "Lade dein erstes Dokument hoch, um mit der Prüfung zu beginnen.": "Upload your first document to start the review process.",
+      "Lade dein erstes Dokument hoch.": "Upload your first document.",
+      "Lade ein Dokument hoch — es erhält automatisch den Status \"Ausstehend\" und kann dann geprüft werden.": "Upload a document — it will automatically receive the status \"Pending\" and can then be reviewed.",
+      "NICHT BESTANDEN": "FAILED",
+      "Nachbesserung": "Revision",
+      "Nicht bestanden": "Failed",
+      "Noch keine Dokumente": "No documents yet",
+      "Ohne Titel": "Untitled",
+      "Zurück zu ausstehend": "Back to pending",
+      "benötigen Nachbesserung": "require revision",
+      "benötigt Nachbesserung": "requires revision",
+      "gelöscht": "deleted",
+      "warten auf Prüfung": "awaiting review",
+      "wartet auf Prüfung": "awaiting review"
+    }
+  },
+  "v": 1
+}

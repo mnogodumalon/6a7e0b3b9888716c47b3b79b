@@ -1,0 +1,11 @@
+{
+  "DokumentenpruefungDialog.tsx": {
+    "titel": "z. B. Jahresbericht 2026",
+    "beschreibung": "Kurze Zusammenfassung des Inhalts, Besonderheiten...",
+    "hochladedatum": "Wann wurde das Dokument hochgeladen?",
+    "pruefstatus": "Wähle den Prüfstatus",
+    "pruefkommentar": "Rückmeldungen, Anforderungen, Ergebnisse...",
+    "prueferdatum": "Wann wurde die Prüfung abgeschlossen?",
+    "pruefer": "z. B. Dr. Schmidt"
+  }
+}
