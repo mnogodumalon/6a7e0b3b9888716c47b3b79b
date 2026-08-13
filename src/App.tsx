@@ -13,6 +13,7 @@ import PublicPagesAdmin from '@/pages/PublicPagesAdmin';
 import DokumentenpruefungPage from '@/pages/DokumentenpruefungPage';
 import DokumentenpruefungDetailPage from '@/pages/DokumentenpruefungDetailPage';
 // <custom:imports>
+const DokumentPruefenPage = lazy(() => import('@/pages/intents/DokumentPruefenPage'));
 // </custom:imports>
 
 // Lazy: public pages live outside <Layout> and only load on /#/public/:slug —
@@ -57,6 +58,7 @@ export default function App() {
                 <Route path="admin" element={<AdminPage />} />
                 <Route path="verwaltung/oeffentliche-seiten" element={<PublicPagesAdmin />} />
                 {/* <custom:routes> */}
+                <Route path="intents/dokument-pruefen" element={<Suspense fallback={null}><DokumentPruefenPage /></Suspense>} />
                 {/* </custom:routes> */}
               </Route>
             </Routes>
